@@ -1,0 +1,31 @@
+BEYOND THE SIGNAL - ENTWICKLUNGSSTATUS
+
+VORBEREITET
+- Bestehenden HTML-Canvas-Prototyp als Web-Basis behalten.
+- Capacitor-Projektstruktur für Android und iOS ergänzt.
+- Web-Dateien werden über scripts/prepare-web.mjs nach www/ kopiert.
+- Android-Vorbereitungs-Skript für Windows ergänzt.
+- Robusteres Lesen und Schreiben des lokalen Spielstands.
+- Combo-Timer nutzt delta time statt fixer Frame-Annahme.
+- Endlosmodus wechselt zyklisch durch die vorhandenen Welten.
+- Game-Over-Anzeige wartet nicht mehr auf die Online-Score-Übertragung.
+- Pointer-Eingabe wird bei Abbruch/Fokusverlust freigegeben.
+
+NOCH OFFEN
+- Android- und iOS-Native-Projekte müssen lokal mit Capacitor erzeugt werden.
+- Android-Build und echtes Geräte-/Browser-Gameplay müssen vollständig getestet werden.
+- iOS-Build benötigt macOS und Xcode.
+- Supabase-URL und Anon-Key sind noch nicht konfiguriert.
+- Online-Leaderboard benötigt Backend-Konfiguration und Sicherheitsprüfung.
+- 20-Skin-Sammlung und Freischaltlogik sind noch nicht vollständig umgesetzt.
+- Store-Release, Datenschutztexte, Barrierefreiheit und Performance-Tests stehen aus.
+- Windows-Native-App (z. B. Tauri) ist noch nicht eingerichtet.
+
+TESTS
+- Inline-JavaScript-Syntaxprüfung mit Node.js bestanden.
+- Capacitor- und Projekt-JSON-Dateien validiert.
+- Web-Vorbereitungsskript ausgeführt; Kopien in www/ stimmen mit Quelldateien überein.
+- ZIP-Archivintegrität geprüft.
+
+WICHTIG
+Dies ist ein Entwicklungsstarter, keine fertige Store-App. Keine Werbe-, Zahlungs- oder Kaufimplementierung enthalten.
